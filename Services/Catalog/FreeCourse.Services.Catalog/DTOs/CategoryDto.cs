@@ -3,10 +3,9 @@ using MongoDB.Bson;
 
 namespace FreeCourse.Services.Catalog.DTOs
 {
-    public class CategortDto
+    internal class CategoryDto
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
+
         public string Id { get; set; }
 
         public string Name { get; set; }

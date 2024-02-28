@@ -491,6 +491,16 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
+      },
+      "FreeCourse.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        }
       }
     }
   },
@@ -1482,11 +1492,17 @@
         "zstdsharp.port.0.7.3.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "FreeCourse.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj",
+      "msbuildProject": "../../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "FreeCourse.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.16",
       "MongoDB.Driver >= 2.23.1",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1518,7 +1534,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

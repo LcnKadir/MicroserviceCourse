@@ -46,3 +46,5 @@ C:\Users\kadir\OneDrive\Masaüstü\Microservices\Services\Catalog\FreeCourse.Ser
 C:\Users\kadir\OneDrive\Masaüstü\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
 C:\Users\kadir\OneDrive\Masaüstü\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\kadir\OneDrive\Masaüstü\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kadir\OneDrive\Masaüstü\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\FreeCourse.Shared.pdb
