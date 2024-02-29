@@ -3,11 +3,11 @@ using MongoDB.Bson;
 
 namespace FreeCourse.Services.Catalog.DTOs
 {
-    internal class CategoryDto
+    public class CategoryDto
     {
 
-        public string Id { get; set; }
+        public string? Id { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
     }
 }
