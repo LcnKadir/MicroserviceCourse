@@ -1,7 +1,11 @@
 ﻿using FreeCourse.IdentityServer.Dtos;
 using FreeCourse.IdentityServer.Models;
+using FreeCourse.Shared.DTOs;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace FreeCourse.IdentityServer.Controllers
 {

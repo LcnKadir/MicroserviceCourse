@@ -9,3 +9,14 @@ C:\Users\kadir\OneDrive\Masaüstü\Microservices\Shared\FreeCourse.Shared\obj\De
 C:\Users\kadir\OneDrive\Masaüstü\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\refint\FreeCourse.Shared.dll
 C:\Users\kadir\OneDrive\Masaüstü\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\FreeCourse.Shared.pdb
 C:\Users\kadir\OneDrive\Masaüstü\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\ref\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\bin\Debug\net7.0\FreeCourse.Shared.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\bin\Debug\net7.0\FreeCourse.Shared.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\FreeCourse.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\FreeCourse.Shared.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\FreeCourse.Shared.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\FreeCourse.Shared.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\refint\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\FreeCourse.Shared.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Shared\FreeCourse.Shared\obj\Debug\net7.0\ref\FreeCourse.Shared.dll

@@ -494,7 +494,7 @@
       },
       "FreeCourse.Shared/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/FreeCourse.Shared.dll": {}
         },
@@ -1517,11 +1517,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
+      "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
       "projectName": "FreeCourse.Services.Catalog",
-      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
+      "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
       "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Services\\Catalog\\FreeCourse.Services.Catalog\\obj\\",
+      "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Catalog\\FreeCourse.Services.Catalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1538,8 +1538,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
             }
           }
         }

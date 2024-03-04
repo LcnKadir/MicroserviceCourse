@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {}
+    "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+    "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
         "projectName": "FreeCourse.Shared",
-        "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
+        "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj",
         "packagesPath": "C:\\Users\\kadir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\Microservices\\Shared\\FreeCourse.Shared\\obj\\",
+        "outputPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kadir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
