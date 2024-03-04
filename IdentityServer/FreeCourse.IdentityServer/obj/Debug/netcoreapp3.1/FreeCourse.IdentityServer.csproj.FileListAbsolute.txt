@@ -141,3 +141,4 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.MvcApplicationPartsAssemblyInfo.cs
