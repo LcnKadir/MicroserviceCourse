@@ -82,7 +82,6 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\Fr
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.AssemblyInfoInputs.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.AssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\staticwebassets\msbuild.FreeCourse.Services.Catalog.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\staticwebassets\msbuild.build.FreeCourse.Services.Catalog.props

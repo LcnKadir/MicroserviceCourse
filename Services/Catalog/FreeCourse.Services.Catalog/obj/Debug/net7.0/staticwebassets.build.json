@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7+e9wCYpNkattGN9WUw3gaPkWc76ndR6tVoa0GGIq40=",
+  "Source": "FreeCourse.Services.Catalog",
+  "BasePath": "_content/FreeCourse.Services.Catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

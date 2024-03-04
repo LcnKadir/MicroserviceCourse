@@ -12,6 +12,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using IdentityServer4.Models;
+using System.Buffers.Text;
+using System.Net;
+using System.Runtime.Intrinsics.X86;
 
 namespace FreeCourse.IdentityServer
 {
@@ -25,17 +29,16 @@ namespace FreeCourse.IdentityServer
             Environment = environment;
             Configuration = configuration;
         }
-
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddLocalApiAuthentication(); // By providing a / clien - based authorization, we can use Authorize in the Controller. //Clien bazlı bir yetkilendirme sağlayarak, Controller'da Authorize kullanabiliriz.
+
             services.AddControllersWithViews();
-
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-                .AddDefaultTokenProviders();
+            .AddEntityFrameworkStores<ApplicationDbContext>()
+            .AddDefaultTokenProviders();
 
             var builder = services.AddIdentityServer(options =>
             {
@@ -81,6 +84,7 @@ namespace FreeCourse.IdentityServer
 
             app.UseRouting();
             app.UseIdentityServer();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
