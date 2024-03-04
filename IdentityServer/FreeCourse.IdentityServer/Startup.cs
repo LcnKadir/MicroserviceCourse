@@ -35,8 +35,10 @@ namespace FreeCourse.IdentityServer
             services.AddLocalApiAuthentication(); // By providing a / clien - based authorization, we can use Authorize in the Controller. //Clien bazlı bir yetkilendirme sağlayarak, Controller'da Authorize kullanabiliriz.
 
             services.AddControllersWithViews();
+
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddIdentity<ApplicationUser, IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>()
             .AddDefaultTokenProviders();
