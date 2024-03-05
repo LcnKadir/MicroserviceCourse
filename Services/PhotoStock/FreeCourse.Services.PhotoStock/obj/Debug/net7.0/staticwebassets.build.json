@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "CrFCj5+ID8qaEkGOQDgZ9x2RszSTFNA7n72G9BnSGdI=",
+  "Source": "FreeCourse.Services.PhotoStock",
+  "BasePath": "_content/FreeCourse.Services.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FreeCourse.Services.PhotoStock\\wwwroot",
+      "Source": "FreeCourse.Services.PhotoStock",
+      "ContentRoot": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/FreeCourse.Services.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

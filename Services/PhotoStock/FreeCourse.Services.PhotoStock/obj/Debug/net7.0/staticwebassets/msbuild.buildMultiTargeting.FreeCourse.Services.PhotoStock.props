@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FreeCourse.Services.PhotoStock.props" />
+</Project>
