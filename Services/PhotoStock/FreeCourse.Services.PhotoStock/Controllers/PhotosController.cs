@@ -12,6 +12,7 @@ namespace FreeCourse.Services.PhotoStock.Controllers
     [ApiController]
     public class PhotosController : CustomBaseController
     {
+
         [HttpPost]
         public async Task<IActionResult> PhotoSave(IFormFile photo, CancellationToken cancellationToken) //CancelletionToken will cancel the saving as a result of the user closing the tab during the photo saving process.
                                                                                                          //CancelletionToken, fotoğraf kaydetme işlemi sırasında kullanıcının sekmeyi kapaması sonucunda; kaydetmeyi iptal edecektir.
@@ -20,10 +21,10 @@ namespace FreeCourse.Services.PhotoStock.Controllers
             {
                 var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", photo.FileName);
 
-                using (var stream = new FileStream(path, FileMode.Create))
-                    await photo.CopyToAsync(stream, cancellationToken);
+                using var stream = new FileStream(path, FileMode.Create);
+                await photo.CopyToAsync(stream, cancellationToken);
 
-                var returnPath = "photos/" + photo.FileName;
+                var returnPath = photo.FileName;
 
                 PhotoDto photoDto = new() { Url = returnPath };
 
@@ -34,6 +35,7 @@ namespace FreeCourse.Services.PhotoStock.Controllers
             return CreateActionResultInstance(Response<PhotoDto>.Fail("photo is empty", 400));
         }
 
+        [HttpDelete]
         public IActionResult PhotoDelete(string photoUrl)
         {
             var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/photos", photoUrl);

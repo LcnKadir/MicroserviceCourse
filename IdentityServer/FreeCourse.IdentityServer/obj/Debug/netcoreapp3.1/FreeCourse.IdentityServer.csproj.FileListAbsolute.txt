@@ -1,11 +1,3 @@
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.csproj.AssemblyReference.cache
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.AssemblyInfoInputs.cache
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.AssemblyInfo.cs
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.csproj.CoreCompileInputs.cache
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorAssemblyInfo.cache
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\FreeCourse.IdentityServer.StaticWebAssets.xml
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\FreeCourse.IdentityServer.exe
@@ -105,6 +97,15 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\FreeCourse.Shared.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\FreeCourse.Shared.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorAssemblyInfo.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.RazorAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\staticwebassets\FreeCourse.IdentityServer.StaticWebAssets.Manifest.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\staticwebassets\FreeCourse.IdentityServer.StaticWebAssets.Pack.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.FreeCourse.IdentityServer.Microsoft.AspNetCore.StaticWebAssets.props
@@ -141,4 +142,3 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.genruntimeconfig.cache
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.MvcApplicationPartsAssemblyInfo.cs

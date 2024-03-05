@@ -16,7 +16,7 @@ builder.Services.AddControllers(opt =>
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.Authority = builder.Configuration["IdentityServerURL"];
-    options.Audience = "resource_catalog";
+    options.Audience = "photo_stock_catalog";
     options.RequireHttpsMetadata = false;
 });
 
@@ -34,6 +34,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
