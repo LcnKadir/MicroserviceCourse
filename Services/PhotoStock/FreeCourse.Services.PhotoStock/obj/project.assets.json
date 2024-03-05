@@ -107,6 +107,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FreeCourse.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -460,10 +473,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "FreeCourse.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj",
+      "msbuildProject": "../../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "FreeCourse.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.16",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -494,7 +513,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

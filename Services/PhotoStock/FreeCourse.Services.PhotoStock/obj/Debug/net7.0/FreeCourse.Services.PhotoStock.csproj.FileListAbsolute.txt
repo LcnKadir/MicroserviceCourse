@@ -32,3 +32,5 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\PhotoStock
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock\obj\Debug\net7.0\FreeCourse.Services.PhotoStock.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock\obj\Debug\net7.0\FreeCourse.Services.PhotoStock.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock\obj\Debug\net7.0\ref\FreeCourse.Services.PhotoStock.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\PhotoStock\FreeCourse.Services.PhotoStock\bin\Debug\net7.0\FreeCourse.Shared.pdb
