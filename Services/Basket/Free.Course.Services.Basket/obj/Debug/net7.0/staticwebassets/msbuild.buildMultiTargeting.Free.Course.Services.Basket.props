@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Free.Course.Services.Basket.props" />
+</Project>
