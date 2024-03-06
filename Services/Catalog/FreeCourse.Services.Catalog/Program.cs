@@ -1,3 +1,4 @@
+using Free.Course.Services.Basket.Settings;
 using FreeCourse.Services.Catalog.Services;
 using FreeCourse.Services.Catalog.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -40,6 +41,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+//OPTÝONSPATTERN FOR REDÝS CONTACT
+builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings")); 
 
 
 

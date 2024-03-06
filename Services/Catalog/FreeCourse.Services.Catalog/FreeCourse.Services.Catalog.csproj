@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Shared\FreeCourse.Shared\FreeCourse.Shared.csproj" />
+    <ProjectReference Include="..\..\Basket\Free.Course.Services.Basket\Free.Course.Services.Basket.csproj" />
   </ItemGroup>
 
 </Project>

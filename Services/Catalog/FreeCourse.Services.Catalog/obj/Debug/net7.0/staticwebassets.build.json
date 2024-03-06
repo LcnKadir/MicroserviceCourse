@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "7+e9wCYpNkattGN9WUw3gaPkWc76ndR6tVoa0GGIq40=",
+  "Hash": "WKWnYdF2P7uzISbFBk4tO2uZ22HHlXH70xPr/1tjGos=",
   "Source": "FreeCourse.Services.Catalog",
   "BasePath": "_content/FreeCourse.Services.Catalog",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Basket\\Free.Course.Services.Basket\\Free.Course.Services.Basket.csproj",
+      "Version": 2,
+      "Source": "Free.Course.Services.Basket",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
