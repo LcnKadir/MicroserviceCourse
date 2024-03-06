@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Options;
+using System.IdentityModel.Tokens.Jwt;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,18 +24,21 @@ builder.Services.AddSingleton<RedisService>(sp =>
 });
 
 builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
 builder.Services.AddScoped<IBasketServies, BasketService>();
 
 
 var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
 
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
+
 //JSONWEBTOKEN
 //Microservice is protected. 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.Authority = builder.Configuration["IdentityServerURL"];
-    options.Audience = "resource_catalog";
+    options.Audience = "resource_basket";
     options.RequireHttpsMetadata = false;
 });
 

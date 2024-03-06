@@ -10,12 +10,12 @@ namespace Free.Course.Services.Basket.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BasketControllers : CustomBaseController
+    public class BasketsController : CustomBaseController
     {
         private readonly IBasketServies _basketServies;
         private readonly ISharedIndetityService _sharedIndetityService;
 
-        public BasketControllers(IBasketServies basketServies, ISharedIndetityService sharedIndetityService)
+        public BasketsController(IBasketServies basketServies, ISharedIndetityService sharedIndetityService)
         {
             _basketServies = basketServies;
             _sharedIndetityService = sharedIndetityService;
