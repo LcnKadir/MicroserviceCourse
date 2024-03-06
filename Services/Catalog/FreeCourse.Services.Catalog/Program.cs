@@ -43,11 +43,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-//OPTÝONSPATTERN FOR REDÝS CONTACT
-builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings")); 
-
-
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
