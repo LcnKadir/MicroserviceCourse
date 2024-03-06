@@ -35,3 +35,11 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Fre
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\obj\Debug\net7.0\Free.Course.Services.Basket.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\obj\Debug\net7.0\Free.Course.Services.Basket.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\obj\Debug\net7.0\ref\Free.Course.Services.Basket.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Basket\Free.Course.Services.Basket\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

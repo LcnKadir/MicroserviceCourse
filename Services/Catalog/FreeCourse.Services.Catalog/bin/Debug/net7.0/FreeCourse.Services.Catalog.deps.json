@@ -393,6 +393,7 @@
       "Free.Course.Services.Basket/1.0.0": {
         "dependencies": {
           "FreeCourse.Shared": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.16",
           "Microsoft.AspNetCore.OpenApi": "7.0.16",
           "StackExchange.Redis": "2.7.27",
           "Swashbuckle.AspNetCore": "6.5.0"
