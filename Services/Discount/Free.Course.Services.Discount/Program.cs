@@ -1,3 +1,5 @@
+using Free.Course.Services.Discount.Services;
+using FreeCourse.Shared.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -14,6 +16,12 @@ builder.Services.AddControllers(opt =>
 {
     opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
 });
+
+
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
+builder.Services.AddScoped<IDiscountService, DiscountService>();
 
 
 
