@@ -29,7 +29,6 @@ builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
 builder.Services.AddScoped<IBasketServies, BasketService>();
 
 
-var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
 
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
 
@@ -42,12 +41,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     options.RequireHttpsMetadata = false;
 });
 
-builder.Services.AddControllers( opt =>
+
+var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+
+builder.Services.AddControllers(opt =>
 {
     opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
 });
-
-
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

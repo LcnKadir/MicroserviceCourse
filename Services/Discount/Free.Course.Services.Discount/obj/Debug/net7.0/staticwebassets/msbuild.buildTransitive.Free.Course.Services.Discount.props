@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Free.Course.Services.Discount.props" />
+</Project>
