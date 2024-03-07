@@ -31,3 +31,10 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\F
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\obj\Debug\net7.0\Free.Course.Services.Discount.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\obj\Debug\net7.0\Free.Course.Services.Discount.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\obj\Debug\net7.0\ref\Free.Course.Services.Discount.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\bin\Debug\net7.0\Dapper.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\bin\Debug\net7.0\Dapper.Contrib.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\bin\Debug\net7.0\FreeCourse.Shared.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Discount\Free.Course.Services.Discount\bin\Debug\net7.0\Npgsql.dll
