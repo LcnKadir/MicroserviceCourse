@@ -12,21 +12,23 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 
-//Host and port connections of Redis when the project is up and running. //Proje ayaða kalktýðý zaman ki Redis'in host ve port baðlantýlarý.
-builder.Services.AddSingleton<RedisService>(sp =>
+var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+builder.Services.AddControllers(opt =>
 {
-    var redisSettings = sp.GetRequiredService<IOptions<RedisSettings>>().Value;
-
-    var redis = new RedisService(redisSettings.Host, redisSettings.Port);
-
-    redis.Connect();
-    return redis;
+    opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
 });
+
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
 builder.Services.AddScoped<IBasketServies, BasketService>();
-
+//OPTÝONSPATTERN FOR REDÝS CONTACT
+builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings"));
 
 
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
@@ -41,22 +43,18 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 
-var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
 
-builder.Services.AddControllers(opt =>
+
+//Host and port connections of Redis when the project is up and running. //Proje ayaða kalktýðý zaman ki Redis'in host ve port baðlantýlarý.
+builder.Services.AddSingleton<RedisService>(sp =>
 {
-    opt.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
+    var redisSettings = sp.GetRequiredService<IOptions<RedisSettings>>().Value;
+
+    var redis = new RedisService(redisSettings.Host, redisSettings.Port);
+
+    redis.Connect();
+    return redis;
 });
-
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-//OPTÝONSPATTERN FOR REDÝS CONTACT
-builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings"));
-
 
 var app = builder.Build();
 

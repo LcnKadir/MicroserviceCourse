@@ -2,6 +2,7 @@
 using FreeCourse.Shared.DTOs;
 using Npgsql;
 using System.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace Free.Course.Services.Discount.Services
 {
@@ -12,7 +13,7 @@ namespace Free.Course.Services.Discount.Services
         private readonly IConfiguration _configuration;
         private readonly IDbConnection _dbconnection;
 
-        public DiscountService(IConfiguration configuration, IDbConnection dbconnection)
+        public DiscountService(IConfiguration configuration)
         {
             _configuration = configuration;
             _dbconnection = new NpgsqlConnection(_configuration.GetConnectionString("PostgreSql"));
@@ -34,7 +35,7 @@ namespace Free.Course.Services.Discount.Services
 
         public async Task<Response<Model.Discount>> GetByCodeAndUserId(string code, string userId)
         {
-         var discount = await _dbconnection.QueryAsync<Model.Discount>("select * from discount where userid=@UserId and code=@Code", new { Code=code, UserId=userId });
+            var discount = await _dbconnection.QueryAsync<Model.Discount>("select * from discount where userid=@UserId and code=@Code", new { UserId = userId, Code = code });
 
             var hasDiscount = discount.FirstOrDefault();
 

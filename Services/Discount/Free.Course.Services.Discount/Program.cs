@@ -10,7 +10,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
+builder.Services.AddScoped<IDiscountService, DiscountService>();
+
+
 var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+
+
+JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
 
 builder.Services.AddControllers(opt =>
 {
@@ -18,14 +30,6 @@ builder.Services.AddControllers(opt =>
 });
 
 
-
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
-builder.Services.AddScoped<IDiscountService, DiscountService>();
-
-
-
-JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
 
 //JSONWEBTOKEN
 //Microservice is protected. 
@@ -37,12 +41,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 
-
-
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 

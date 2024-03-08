@@ -40,7 +40,7 @@ namespace Free.Course.Services.Discount.Controllers
         public async Task<IActionResult> GetByCode(string code)
         {
             var userId = _sharedIndetityService.GetUserId;
-            var discount = await _discountService.GetByCodeAndUserId(userId, code);
+            var discount = await _discountService.GetByCodeAndUserId(code, userId);
 
             return CreateActionResultInstance(discount);
         }
