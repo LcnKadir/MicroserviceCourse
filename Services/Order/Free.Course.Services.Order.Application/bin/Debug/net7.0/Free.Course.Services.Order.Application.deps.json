@@ -7,14 +7,54 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "Free.Course.Services.Order.Application/1.0.0": {
+        "dependencies": {
+          "Free.Course.Services.Order.Domain": "1.0.0",
+          "Free.Course.Services.Order.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "Free.Course.Services.Order.Application.dll": {}
+        }
+      },
+      "Free.Course.Services.Order.Domain/1.0.0": {
+        "dependencies": {
+          "Free.Course.Services.Order.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Free.Course.Services.Order.Domain.dll": {}
+        }
+      },
+      "Free.Course.Services.Order.Domain.Core/1.0.0": {
+        "runtime": {
+          "Free.Course.Services.Order.Domain.Core.dll": {}
+        }
+      },
+      "Free.Course.Services.Order.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Free.Course.Services.Order.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Free.Course.Services.Order.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Free.Course.Services.Order.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Free.Course.Services.Order.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Free.Course.Services.Order.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Free.Course.Services.Order.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

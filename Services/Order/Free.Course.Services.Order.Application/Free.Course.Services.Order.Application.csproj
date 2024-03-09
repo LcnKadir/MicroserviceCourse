@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Free.Course.Services.Order.Infrastructure\Free.Course.Services.Order.Infrastructure.csproj" />
+    <ProjectReference Include="..\Free.Courser.Services.Domain\Free.Course.Services.Order.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Free.Course.Services.Order.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Free.Course.Services.Order.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Free.Course.Services.Order.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Free.Course.Services.Order.Domain.dll": {}
+        }
+      },
+      "Free.Course.Services.Order.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Free.Course.Services.Order.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Free.Course.Services.Order.Domain.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Free.Course.Services.Order.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Free.Courser.Services.Domain/Free.Course.Services.Order.Domain.csproj",
+      "msbuildProject": "../Free.Courser.Services.Domain/Free.Course.Services.Order.Domain.csproj"
+    },
+    "Free.Course.Services.Order.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../Free.Course.Services.Order.Domain.Core/Free.Course.Services.Order.Domain.Core.csproj",
+      "msbuildProject": "../Free.Course.Services.Order.Domain.Core/Free.Course.Services.Order.Domain.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Free.Course.Services.Order.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kadir\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Courser.Services.Domain\\Free.Course.Services.Order.Domain.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Courser.Services.Domain\\Free.Course.Services.Order.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "Free.Course.Services.Order.API/1.0.0": {
         "dependencies": {
+          "Free.Course.Services.Order.Application": "1.0.0",
+          "FreeCourse.Shared": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.16",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
@@ -72,6 +74,41 @@
             "fileVersion": "6.5.0.0"
           }
         }
+      },
+      "Free.Course.Services.Order.Application/1.0.0": {
+        "dependencies": {
+          "Free.Course.Services.Order.Domain": "1.0.0",
+          "Free.Course.Services.Order.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "Free.Course.Services.Order.Application.dll": {}
+        }
+      },
+      "Free.Course.Services.Order.Domain/1.0.0": {
+        "dependencies": {
+          "Free.Course.Services.Order.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Free.Course.Services.Order.Domain.dll": {}
+        }
+      },
+      "Free.Course.Services.Order.Domain.Core/1.0.0": {
+        "runtime": {
+          "Free.Course.Services.Order.Domain.Core.dll": {}
+        }
+      },
+      "Free.Course.Services.Order.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Free.Course.Services.Order.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Free.Course.Services.Order.Infrastructure.dll": {}
+        }
+      },
+      "FreeCourse.Shared/1.0.0": {
+        "runtime": {
+          "FreeCourse.Shared.dll": {}
+        }
       }
     }
   },
@@ -129,6 +166,31 @@
       "sha512": "sha512-OvbvxX+wL8skxTBttcBsVxdh73Fag4xwqEU2edh4JMn7Ws/xJHnY/JB1e9RoCb6XpDxUF3hD9A0Z1lEUx40Pfw==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    },
+    "Free.Course.Services.Order.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Free.Course.Services.Order.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Free.Course.Services.Order.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Free.Course.Services.Order.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FreeCourse.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

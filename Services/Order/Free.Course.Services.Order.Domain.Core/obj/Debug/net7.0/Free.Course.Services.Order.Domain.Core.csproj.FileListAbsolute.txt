@@ -1,0 +1,11 @@
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\bin\Debug\net7.0\Free.Course.Services.Order.Domain.Core.deps.json
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\bin\Debug\net7.0\Free.Course.Services.Order.Domain.Core.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\bin\Debug\net7.0\Free.Course.Services.Order.Domain.Core.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\Free.Course.Services.Order.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\Free.Course.Services.Order.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\Free.Course.Services.Order.Domain.Core.AssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\Free.Course.Services.Order.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\Free.Course.Services.Order.Domain.Core.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\refint\Free.Course.Services.Order.Domain.Core.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\Free.Course.Services.Order.Domain.Core.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Domain.Core\obj\Debug\net7.0\ref\Free.Course.Services.Order.Domain.Core.dll
