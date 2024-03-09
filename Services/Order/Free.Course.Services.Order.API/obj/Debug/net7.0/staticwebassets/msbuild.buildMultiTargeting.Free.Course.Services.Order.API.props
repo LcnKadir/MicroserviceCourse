@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Free.Course.Services.Order.API.props" />
+</Project>
