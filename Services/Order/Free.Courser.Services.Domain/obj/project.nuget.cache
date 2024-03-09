@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rQ2r8azmBbkNwkCgMqLTLlmKEuYih+y8z9lRih7YBvx0Ull1Bim70ABKUTWoofVeIdKwHsUV1VfGMgDAm540yg==",
+  "dgSpecHash": "4Ecs35N6ZEOylAA1MclSctjHbG9gWevLHQ1J9wXrtIKwLxJocyvWsFShIG7+vNI9qtImextigHDX4c6N3jqaDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Courser.Services.Domain\\Free.Courser.Services.Domain.csproj",
+  "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Courser.Services.Domain\\Free.Course.Services.Order.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
