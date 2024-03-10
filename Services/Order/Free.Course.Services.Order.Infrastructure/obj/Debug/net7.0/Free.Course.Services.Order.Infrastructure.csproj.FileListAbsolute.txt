@@ -15,3 +15,5 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Infrastructure\bin\Debug\net7.0\Free.Course.Services.Order.Domain.Core.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Infrastructure\obj\Debug\net7.0\Free.Course.Services.Order.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Infrastructure\obj\Debug\net7.0\Free.Course.Services.Order.Infrastructure.csproj.CopyComplete
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Infrastructure\bin\Debug\net7.0\Free.Course.Services.Order.Infrastructure.runtimeconfig.json
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Infrastructure\obj\Debug\net7.0\Free.Course.Services.Order.Infrastructure.genruntimeconfig.cache
