@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "EQYWAhnglFY419qpqDENjyu5o0KGuaSr/H76wTmkx3JuF1sEakf0Pj5BWjex8kN5WC7cL+Po1ziJ14GPYt3Xjg==",
+  "dgSpecHash": "zdBCTML53NhxXjmd1YxfgEx/cRzHwd1LOYDggXY9fUtCpz9/BzWHiXT1JgAQ9zX3XmcJvHsej+8oIQOf8lte0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Course.Services.Order.API\\Free.Course.Services.Order.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kadir\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.16\\microsoft.aspnetcore.openapi.7.0.16.nupkg.sha512",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yLuUsNDhobexar6Px9GnGrAAih6UY1XglOSc+PMHph2X1Raa/Fiy0No1NajztH4DSiAMHZ1YdrVxdXEkQzS3wQ==",
+  "dgSpecHash": "6VHB+y77iRVMvJXs5pVnuNpEGxL2a7EoKGqgKo5Ioa06CzGHm0LaUg+MVdI1EymvrJFiZs5vh/SDSgsJ6uoGmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Course.Services.Order.Application\\Free.Course.Services.Order.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kadir\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
