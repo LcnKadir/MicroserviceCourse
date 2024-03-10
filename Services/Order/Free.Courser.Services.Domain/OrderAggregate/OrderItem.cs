@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Free.Course.Services.Order.Domain.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Free.Course.Services.Order.Domain.OrderAggregate
 {
-    public class OrderItem
+    public class OrderItem : Entity
     {
         public string ProductId { get; private set; }
         public string ProductName { get; private set; }
