@@ -33,3 +33,11 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePaymen
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\obj\Debug\net7.0\ref\Free.Course.Services.FakePayment.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\FreeCourse.Shared.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\FreeCourse.Shared.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
