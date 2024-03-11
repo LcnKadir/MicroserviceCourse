@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\FreeCourse.Shared\FreeCourse.Shared.csproj" />
     <ProjectReference Include="..\Free.Course.Services.Order.Infrastructure\Free.Course.Services.Order.Infrastructure.csproj" />
     <ProjectReference Include="..\Free.Courser.Services.Domain\Free.Course.Services.Order.Domain.csproj" />
   </ItemGroup>

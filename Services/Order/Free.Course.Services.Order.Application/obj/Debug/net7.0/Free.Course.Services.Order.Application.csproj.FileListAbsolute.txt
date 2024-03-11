@@ -17,3 +17,5 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Application\bin\Debug\net7.0\Free.Course.Services.Order.Domain.Core.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Application\obj\Debug\net7.0\Free.Course.Services.Order.Application.csproj.AssemblyReference.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Application\obj\Debug\net7.0\Free.Course.Services.Order.Application.csproj.CopyComplete
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Application\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.Application\bin\Debug\net7.0\FreeCourse.Shared.pdb
