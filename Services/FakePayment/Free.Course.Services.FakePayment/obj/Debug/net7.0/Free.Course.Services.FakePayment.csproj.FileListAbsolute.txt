@@ -31,3 +31,5 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePaymen
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\obj\Debug\net7.0\Free.Course.Services.FakePayment.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\obj\Debug\net7.0\Free.Course.Services.FakePayment.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\obj\Debug\net7.0\ref\Free.Course.Services.FakePayment.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\FakePayment\Free.Course.Services.FakePayment\bin\Debug\net7.0\FreeCourse.Shared.pdb
