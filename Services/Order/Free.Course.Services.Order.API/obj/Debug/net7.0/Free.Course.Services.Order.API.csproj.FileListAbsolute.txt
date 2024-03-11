@@ -88,3 +88,4 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
