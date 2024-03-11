@@ -1,4 +1,6 @@
 using Free.Course.Services.Order.Infrastructure;
+using FreeCourse.Shared.Services;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,19 +8,27 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+
 builder.Services.AddDbContext<OrderDbContext>(opt =>
 {
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), configure=>
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), configure =>
     {
         configure.MigrationsAssembly("Free.Course.Services.Order.Infrastructure");
     });
 });
 
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddMediatR(typeof(Free.Course.Services.Order.Application.Handlers.CreateOrderCommandHandler).Assembly);
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
+
 
 var app = builder.Build();
 

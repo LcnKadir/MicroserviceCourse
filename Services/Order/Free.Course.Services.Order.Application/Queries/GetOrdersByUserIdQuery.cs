@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Free.Course.Services.Order.Application.Queries
 {
-     class GetOrdersByUserIdQuery:IRequest<Response<List<OrderDto>>>
+     public class GetOrdersByUserIdQuery:IRequest<Response<List<OrderDto>>>
     {
         public string UserId { get; set; }
     }

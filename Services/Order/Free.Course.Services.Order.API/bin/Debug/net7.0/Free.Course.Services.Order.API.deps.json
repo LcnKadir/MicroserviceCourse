@@ -9,7 +9,6 @@
       "Free.Course.Services.Order.API/1.0.0": {
         "dependencies": {
           "Free.Course.Services.Order.Application": "1.0.0",
-          "FreeCourse.Shared": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.16",
           "Microsoft.EntityFrameworkCore.Design": "7.0.16",
           "Swashbuckle.AspNetCore": "6.5.0"

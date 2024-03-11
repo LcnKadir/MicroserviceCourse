@@ -3576,7 +3576,6 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Free.Course.Services.Order.Application >= 1.0.0",
-      "FreeCourse.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.16",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.16",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -3611,9 +3610,6 @@
           "projectReferences": {
             "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Course.Services.Order.Application\\Free.Course.Services.Order.Application.csproj": {
               "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Order\\Free.Course.Services.Order.Application\\Free.Course.Services.Order.Application.csproj"
-            },
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
             }
           }
         }
