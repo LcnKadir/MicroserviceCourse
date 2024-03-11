@@ -7,6 +7,14 @@ builder.Configuration.AddJsonFile($"configuration.{builder.Environment.Environme
 
 
 
+builder.Services.AddAuthentication().AddJwtBearer("GatewayAuthenticationScheme", options =>
+{
+    options.Authority = builder.Configuration["IdentityServerURL"];
+    options.Audience = "resource_gateway";
+    options.RequireHttpsMetadata = false;
+});
+
+
 builder.Services.AddOcelot();
 
 

@@ -37,3 +37,11 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\obj\Debug\net7.0\Free.Course.Gateway.csproj.CopyComplete
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\configuration.development.json
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\configuration.production.json
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
