@@ -35,3 +35,5 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\obj\Debug\net7.0\Free.Course.Gateway.csproj.AssemblyReference.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\obj\Debug\net7.0\Free.Course.Gateway.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\obj\Debug\net7.0\Free.Course.Gateway.csproj.CopyComplete
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\configuration.development.json
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Free.Course.Gateway\bin\Debug\net7.0\configuration.production.json
