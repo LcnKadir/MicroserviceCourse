@@ -28,3 +28,9 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Cour
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\obj\Debug\net7.0\Free.Course.Web.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\obj\Debug\net7.0\Free.Course.Web.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\obj\Debug\net7.0\ref\Free.Course.Web.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\IdentityModel.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\FreeCourse.Shared.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\FreeCourse.Shared.pdb
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\obj\Debug\net7.0\Free.Course.Web.csproj.AssemblyReference.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\obj\Debug\net7.0\Free.Course.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\obj\Debug\net7.0\Free.Course.Web.csproj.CopyComplete

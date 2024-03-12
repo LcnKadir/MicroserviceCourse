@@ -2,7 +2,7 @@
 
 namespace Free.Course.Web.Models
 {
-    public class SignInİnput
+    public class SigninInput
     {
         //Data will be taken from the user. //Kullanıcıdan data alınacak.
 
