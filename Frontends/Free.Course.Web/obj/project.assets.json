@@ -1,11 +1,72 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "IdentityModel/7.0.0-preview.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/IdentityModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/IdentityModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FreeCourse.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FreeCourse.Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "IdentityModel/7.0.0-preview.3": {
+      "sha512": "mLg2ddQtIhPmc3JAdbP0Sb8xUeHLh9mWiMk2ewlAsrHztqc7ithmrDA5hx42+/T27CFTLlOnFEHLNY1f3ve37Q==",
+      "type": "package",
+      "path": "identitymodel/7.0.0-preview.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.jpg",
+        "identitymodel.7.0.0-preview.3.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net461/IdentityModel.dll",
+        "lib/net461/IdentityModel.pdb",
+        "lib/net461/IdentityModel.xml",
+        "lib/net472/IdentityModel.dll",
+        "lib/net472/IdentityModel.pdb",
+        "lib/net472/IdentityModel.xml",
+        "lib/net6.0/IdentityModel.dll",
+        "lib/net6.0/IdentityModel.pdb",
+        "lib/net6.0/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "FreeCourse.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj",
+      "msbuildProject": "../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "FreeCourse.Shared >= 1.0.0",
+      "IdentityModel >= 7.0.0-preview.3"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kadir\\.nuget\\packages\\": {}
@@ -33,7 +94,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
+              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -45,6 +110,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "IdentityModel": {
+            "target": "Package",
+            "version": "[7.0.0-preview.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
