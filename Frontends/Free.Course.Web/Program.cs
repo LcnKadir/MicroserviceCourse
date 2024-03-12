@@ -1,9 +1,15 @@
 using Free.Course.Web.Models;
+using Free.Course.Web.Services;
+using Free.Course.Web.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddHttpClient<IIdentityService, IdentityService>();
 
 
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection(nameof(ServiceApiSettings)));

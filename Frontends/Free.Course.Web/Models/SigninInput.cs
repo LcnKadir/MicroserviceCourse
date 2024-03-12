@@ -6,6 +6,7 @@ namespace Free.Course.Web.Models
     {
         //Data will be taken from the user. //Kullanıcıdan data alınacak.
 
+        [Required]
         [Display(Name ="Email adresiniz")]
         public string Email { get; set; }
 

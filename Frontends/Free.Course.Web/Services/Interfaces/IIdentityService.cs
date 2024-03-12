@@ -4,7 +4,7 @@ using IdentityModel.Client;
 
 namespace Free.Course.Web.Services.Interfaces
 {
-    interface IIdentityService
+    public interface IIdentityService
     {
         Task<Response<bool>> SignIn(SigninInput signinInput);
 
