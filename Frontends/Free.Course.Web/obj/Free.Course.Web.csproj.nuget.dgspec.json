@@ -47,6 +47,10 @@
             "IdentityModel": {
               "target": "Package",
               "version": "[7.0.0-preview.3, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.4.0, )"
             }
           },
           "imports": [
