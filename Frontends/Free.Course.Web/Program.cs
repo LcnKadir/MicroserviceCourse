@@ -1,3 +1,4 @@
+using Free.Course.Web.Handler;
 using Free.Course.Web.Models;
 using Free.Course.Web.Services;
 using Free.Course.Web.Services.Interfaces;
@@ -18,10 +19,10 @@ builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection(name
 var serviceApiSetting = builder.Configuration.GetSection(nameof(ServiceApiSettings)).Get<ServiceApiSettings>();
 
 builder.Services.AddHttpClient<IIdentityService, IdentityService>();
-builder.Services.AddHttpClient<IUserService, UserService>(opt=>
+builder.Services.AddHttpClient<IUserService, UserService>(opt =>
 {
     opt.BaseAddress = new Uri(serviceApiSetting.IdentityBaseUri);
-});
+}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 
 //Cookie
