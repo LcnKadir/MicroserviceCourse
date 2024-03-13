@@ -5,9 +5,16 @@ namespace Free.Course.Web.Services
 {
     public class UserService : IUserService
     {
-        public Task<UserViewModel> GetUser()
+        private readonly HttpClient _httpClient;
+
+        public UserService(HttpClient httpClient)
         {
-            throw new NotImplementedException();
+            _httpClient = httpClient;
+        }
+
+        public async Task<UserViewModel> GetUser()
+        {
+            return await _httpClient.GetFromJsonAsync<UserViewModel>("/api/user/getuser");
         }
     }
 }
