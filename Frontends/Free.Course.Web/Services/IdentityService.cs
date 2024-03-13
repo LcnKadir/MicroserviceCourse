@@ -72,9 +72,31 @@ namespace Free.Course.Web.Services
             return token;
         }
 
-        public Task RevokeRefreshToken()
+        public async Task RevokeRefreshToken()
         {
-            throw new NotImplementedException();
+            var dicso = await _httpclient.GetDiscoveryDocumentAsync(new DiscoveryDocumentRequest
+            {
+                Address = _serviceApiSettings.BaseUri,
+                Policy = new DiscoveryPolicy { RequireHttps = false }
+            });
+
+            if (dicso.IsError)
+            {
+                throw dicso.Exception;
+            }
+
+            var refreshtoken = await _httpContextAccessor.HttpContext.GetTokenAsync(OpenIdConnectParameterNames.RefreshToken);
+
+            TokenRevocationRequest tokenRevocationRequest = new()
+            {
+                ClientId = _clientSettings.WebClientForUser.ClientId,
+                ClientSecret = _clientSettings.WebClientForUser.ClientSecret,
+                Address = dicso.RegistrationEndpoint,
+                Token = refreshtoken,
+                TokenTypeHint = "refresh_token"
+            };
+
+            await _httpclient.RevokeTokenAsync(tokenRevocationRequest);
         }
 
         public async Task<Response<bool>> SignIn(SigninInput signinInput)
