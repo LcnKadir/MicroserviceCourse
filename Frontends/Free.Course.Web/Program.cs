@@ -2,6 +2,7 @@ using Free.Course.Web.Handler;
 using Free.Course.Web.Models;
 using Free.Course.Web.Services;
 using Free.Course.Web.Services.Interfaces;
+using FreeCourse.Shared.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -16,6 +17,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection(nameof(ServiceApiSettings)));
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection(nameof(ClientSettings)));
 
+builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
 
 var serviceApiSetting = builder.Configuration.GetSection(nameof(ServiceApiSettings)).Get<ServiceApiSettings>();
 
