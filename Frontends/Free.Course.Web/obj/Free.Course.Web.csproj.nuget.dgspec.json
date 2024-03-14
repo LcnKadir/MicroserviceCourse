@@ -44,9 +44,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "IdentityModel": {
+            "IdentityModel.AspNetCore": {
               "target": "Package",
-              "version": "[7.0.0-preview.3, )"
+              "version": "[4.3.0, )"
             },
             "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
               "target": "Package",

@@ -18,6 +18,7 @@ builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection(
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection(nameof(ClientSettings)));
 
 builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
+builder.Services.AddScoped<IClientCredentialTokenService, ClientCredentialTokenService>();
 
 var serviceApiSetting = builder.Configuration.GetSection(nameof(ServiceApiSettings)).Get<ServiceApiSettings>();
 

@@ -232,3 +232,5 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Cour
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\IdentityModel.AspNetCore.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

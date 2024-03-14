@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "joo3hIeNBwKtgEugYO3IDMq/EVVZUkHYrQjsa7xjdXhJcC7vGK3XzRjTnZvDZr7x/O/hVYpr0JOtxnYj2a7jfQ==",
+  "dgSpecHash": "RHPy04AZOWyFqaRO/3Sd4CURvPhdkw52Rt66avpCYiwfiU7sYI2vabFivn0vQOFq4XuxAlh/GRUANdbm2XDRxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Frontends\\Free.Course.Web\\Free.Course.Web.csproj",
   "expectedPackageFiles": [
@@ -54,7 +54,9 @@
     "C:\\Users\\kadir\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
-    "C:\\Users\\kadir\\.nuget\\packages\\identitymodel\\7.0.0-preview.3\\identitymodel.7.0.0-preview.3.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\identitymodel.aspnetcore\\4.3.0\\identitymodel.aspnetcore.4.3.0.nupkg.sha512",
+    "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0\\microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\microsoft.build\\17.3.2\\microsoft.build.17.3.2.nupkg.sha512",
