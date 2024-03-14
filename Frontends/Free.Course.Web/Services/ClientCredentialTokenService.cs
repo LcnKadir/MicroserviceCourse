@@ -26,7 +26,7 @@ namespace Free.Course.Web.Services
         public async Task<string> GetToken()
         {
             var currentToken = await _clientAccessTokenCache.GetAsync("WebClientToken", default);
-            if (currentToken! == null) 
+            if (currentToken != null) 
             {
                 return currentToken.AccessToken;
             }
@@ -60,7 +60,6 @@ namespace Free.Course.Web.Services
 
             return newToken.AccessToken;
 
-            throw new NotImplementedException();
         }
     }
 }

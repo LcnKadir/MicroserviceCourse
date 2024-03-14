@@ -14,6 +14,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 builder.Services.AddScoped<ClientCredentialTokenHandler>();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddAccessTokenManagement();
 
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection(nameof(ServiceApiSettings)));
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection(nameof(ClientSettings)));
