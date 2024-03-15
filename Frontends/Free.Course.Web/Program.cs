@@ -1,4 +1,5 @@
 using Free.Course.Web.Handler;
+using Free.Course.Web.Helpers;
 using Free.Course.Web.Models;
 using Free.Course.Web.Services;
 using Free.Course.Web.Services.Interfaces;
@@ -15,6 +16,7 @@ builder.Services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 builder.Services.AddScoped<ClientCredentialTokenHandler>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAccessTokenManagement();
+builder.Services.AddSingleton<PhotoHelper>();
 
 builder.Services.Configure<ServiceApiSettings>(builder.Configuration.GetSection(nameof(ServiceApiSettings)));
 builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection(nameof(ClientSettings)));
