@@ -12,10 +12,13 @@ namespace Free.Course.Web.Models.Catalogs
         [Required]
         public string Description { get; set; }
 
-
         [Display(Name = "Kurs fiyat")]
         [Required]
         public decimal Price { get; set; }
+
+        [Display(Name = "Kurs Resmi")]
+        public IFormFile PhotoFormFile { get; set; }
+
         public string? Picture { get; set; }
         public string? UserId { get; set; }
         public FeatureViewModel Feature { get; set; }
@@ -24,5 +27,6 @@ namespace Free.Course.Web.Models.Catalogs
         [Display(Name = "Kurs kategori")]
         [Required]
         public string? CategoryId { get; set; }
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Free.Course.Web.Models.PhotoStocks;
 using Free.Course.Web.Services.Interfaces;
+using FreeCourse.Shared.DTOs;
 
 namespace Free.Course.Web.Services
 {
@@ -20,7 +21,7 @@ namespace Free.Course.Web.Services
 
         public async Task<PhotoViewModel> UploadPhoto(IFormFile photo)
         {
-            if(photo == null || photo.Length<=0)
+            if(photo == null || photo.Length <= 0)
             {
                 return null;
             }
@@ -33,6 +34,7 @@ namespace Free.Course.Web.Services
 
             var multipartContent = new MultipartFormDataContent();
 
+            
             multipartContent.Add(new ByteArrayContent(ms.ToArray()), "photo", randomFileName);
 
             var response = await _httpClient.PostAsync("photos", multipartContent);
@@ -42,7 +44,9 @@ namespace Free.Course.Web.Services
                 return null;
             }
 
-          return await response.Content.ReadFromJsonAsync<PhotoViewModel>();
+          var responseSuccess = await response.Content.ReadFromJsonAsync<Response<PhotoViewModel>>();
+
+            return responseSuccess.Data;
         }
     }
 }

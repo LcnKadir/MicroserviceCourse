@@ -12,20 +12,25 @@ builder.Services.AddControllers(opt =>
 });
 
 
-//JSONWEBTOKEN
-//Microservice is protected.
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
-{
-    options.Authority = builder.Configuration["IdentityServerURL"];
-    options.Audience = "photo_stock_catalog";
-    options.RequireHttpsMetadata = false;
-});
-
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+//JSONWEBTOKEN
+//Microservice is protected.
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.Authority = builder.Configuration["IdentityServerURL"];
+    options.Audience = "resource_photo_stock";
+    options.RequireHttpsMetadata = false;
+});
+
+
+
+
 
 var app = builder.Build();
 
