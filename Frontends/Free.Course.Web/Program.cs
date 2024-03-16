@@ -1,3 +1,4 @@
+using Free.Course.Web.Extensions;
 using Free.Course.Web.Handler;
 using Free.Course.Web.Helpers;
 using Free.Course.Web.Models;
@@ -24,27 +25,7 @@ builder.Services.Configure<ClientSettings>(builder.Configuration.GetSection(name
 builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
 builder.Services.AddScoped<IClientCredentialTokenService, ClientCredentialTokenService>();
 
-var serviceApiSetting = builder.Configuration.GetSection(nameof(ServiceApiSettings)).Get<ServiceApiSettings>();
-
-builder.Services.AddHttpClient<IIdentityService, IdentityService>();
-
-builder.Services.AddHttpClient<ICatalogService, CatalogService>(opt=>
-{
-    opt.BaseAddress = new Uri($"{serviceApiSetting.GatewayBaseUri}/{serviceApiSetting.Catalog.Path}");
-}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
-
-builder.Services.AddHttpClient<IPhotoStockService, PhotoStockService>(opt =>
-{
-    opt.BaseAddress = new Uri($"{serviceApiSetting.GatewayBaseUri}/{serviceApiSetting.PhotoStock.Path}");
-}).AddHttpMessageHandler<ClientCredentialTokenHandler>();
-
-
-builder.Services.AddHttpClient<IUserService, UserService>(opt =>
-{
-    opt.BaseAddress = new Uri(serviceApiSetting.IdentityBaseUri);
-}).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
-
-
+builder.Services.AddHttpClientServices(builder.Configuration); 
 
 //Cookie
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, opt =>
@@ -54,8 +35,6 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     opt.SlidingExpiration = true; //Let the cookie period be extended when the user logs in. //Kullanýcý giriþ yaptýðý zaman cookie süresi uzatýlsýn.
     opt.Cookie.Name = "webcookie";
 });
-
-
 
 
 var app = builder.Build();
