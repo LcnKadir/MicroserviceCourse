@@ -1,16 +1,19 @@
 ﻿using Free.Course.Web.Models.Baskets;
 using Free.Course.Web.Services.Interfaces;
 using FreeCourse.Shared.DTOs;
+using FreeCourse.Shared.Services;
 
 namespace Free.Course.Web.Services
 {
     public class BasketService : IBasketService
     {
         private readonly HttpClient _httpClient;
+        private readonly ISharedIndetityService _sharedIdentityService;
 
-        public BasketService(HttpClient httpClient)
+        public BasketService(HttpClient httpClient, ISharedIndetityService sharedIdentityService)
         {
             _httpClient = httpClient;
+            _sharedIdentityService = sharedIdentityService;
         }
 
         public async Task AddBasketItem(BasketItemViewModel basketItemViewModel)
@@ -19,14 +22,18 @@ namespace Free.Course.Web.Services
 
             if (basket != null)
             {
-                if (basket.BasketItems.Any(x => x.CourseId == basketItemViewModel.CourseId))
+                if (!basket.BasketItems.Any(x => x.CourseId == basketItemViewModel.CourseId))
                 {
                     basket.BasketItems.Add(basketItemViewModel);
                 }
             }
             else
             {
-                basket = new BasketViewModel();
+                basket = new BasketViewModel()
+                {
+                    UserId = _sharedIdentityService.GetUserId
+                };
+
                 basket.BasketItems.Add(basketItemViewModel);
             }
 
@@ -54,7 +61,7 @@ namespace Free.Course.Web.Services
         {
             var response = await _httpClient.GetAsync("baskets");
 
-            if (response.IsSuccessStatusCode)
+            if (!response.IsSuccessStatusCode)
             {
                 return null;
             }
