@@ -31,6 +31,9 @@ namespace Free.Course.Services.Basket.Controllers
         [HttpPost]
         public async Task<IActionResult> SaveOrUpdateBasket(BasketDto basketDto)
         {
+
+            basketDto.UserId = _sharedIndetityService.GetUserId;
+
             var response = await _basketServies.SaveOrUpdate(basketDto);
 
             return CreateActionResultInstance(response);
