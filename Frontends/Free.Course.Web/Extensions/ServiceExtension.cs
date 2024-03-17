@@ -25,6 +25,7 @@ namespace Free.Course.Web.Extensions
             }).AddHttpMessageHandler<ClientCredentialTokenHandler>();
 
 
+
             Services.AddHttpClient<IUserService, UserService>(opt =>
             {
                 opt.BaseAddress = new Uri(serviceApiSetting.IdentityBaseUri);
@@ -33,6 +34,11 @@ namespace Free.Course.Web.Extensions
             Services.AddHttpClient<IBasketService, BasketService>(opt =>
             {
                 opt.BaseAddress = new Uri($"{serviceApiSetting.GatewayBaseUri}/{serviceApiSetting.Basket.Path}");
+            }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
+            Services.AddHttpClient<IDiscountService, DiscountService>(opt =>
+            {
+                opt.BaseAddress = new Uri($"{serviceApiSetting.GatewayBaseUri}/{serviceApiSetting.Discount.Path}");
             }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
 
