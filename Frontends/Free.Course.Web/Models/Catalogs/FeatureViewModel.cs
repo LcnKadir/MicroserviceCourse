@@ -6,7 +6,6 @@ namespace Free.Course.Web.Models.Catalogs
     {
 
         [Display(Name = "Kurs süre")]
-        [Required]
         public int Duration { get; set; }
     }
 }

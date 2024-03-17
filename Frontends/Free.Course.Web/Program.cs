@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Free.Course.Web.Extensions;
 using Free.Course.Web.Handler;
 using Free.Course.Web.Helpers;
@@ -12,6 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddFluentValidationAutoValidation();
 
 builder.Services.AddScoped<ResourceOwnerPasswordTokenHandler>();
 builder.Services.AddScoped<ClientCredentialTokenHandler>();

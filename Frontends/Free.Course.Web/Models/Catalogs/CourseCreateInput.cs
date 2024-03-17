@@ -5,15 +5,12 @@ namespace Free.Course.Web.Models.Catalogs
     public class CourseCreateInput
     {
         [Display(Name="Kurs ismi")]
-        [Required]
         public string Name { get; set; }
 
         [Display(Name = "Kurs açıklama")]
-        [Required]
         public string Description { get; set; }
 
         [Display(Name = "Kurs fiyat")]
-        [Required]
         public decimal Price { get; set; }
 
         [Display(Name = "Kurs Resmi")]
@@ -25,7 +22,6 @@ namespace Free.Course.Web.Models.Catalogs
 
 
         [Display(Name = "Kurs kategori")]
-        [Required]
         public string? CategoryId { get; set; }
 
     }

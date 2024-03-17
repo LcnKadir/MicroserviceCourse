@@ -17,6 +17,12 @@ builder.Services.AddControllers(opt => //Authorize has been added to protect all
     opt.Filters.Add(new AuthorizeFilter());
 }); 
 
+
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly()); // Added AutoMapper to convert DTOs. // DTO'larý dönüþtürmek için AutoMapper'ý eklendi.
@@ -34,16 +40,9 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp =>
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.Authority = builder.Configuration["IdentityServerURL"];
-    options.Audience = "resource_photo_stock";
+    options.Audience = "resource_catalog";
     options.RequireHttpsMetadata = false;
 });
-
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
 
 var app = builder.Build();
 
