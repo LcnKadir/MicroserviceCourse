@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Free.Course.Web.Models.Ordes
+namespace Free.Course.Web.Models.Orders
 {
-    public class ChechoutInfoInput
+    public class CheckoutInfoInput
     {
         [Display(Name = "İl")]
         public string Province { get; set; }

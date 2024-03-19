@@ -1,6 +1,6 @@
-﻿namespace Free.Course.Web.Models.Ordes
+﻿namespace Free.Course.Web.Models.Orders
 {
-    public class OrderItemCreatInput
+    public class OrderItemViewModel
     {
         public string ProductId { get; set; }
         public string ProductName { get; set; }

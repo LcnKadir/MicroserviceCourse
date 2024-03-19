@@ -1,4 +1,4 @@
-﻿namespace Free.Course.Web.Models.Ordes
+﻿namespace Free.Course.Web.Models.Orders
 {
     public class OrderViewModel
     {

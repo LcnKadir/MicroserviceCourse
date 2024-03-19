@@ -1,5 +1,5 @@
 ﻿using Free.Course.Web.Models.FakePayments;
-using Free.Course.Web.Models.Ordes;
+using Free.Course.Web.Models.Orders;
 using Free.Course.Web.Services.Interfaces;
 using FreeCourse.Shared.DTOs;
 using FreeCourse.Shared.Services;
@@ -20,16 +20,16 @@ namespace Free.Course.Web.Services
             _sharedIndetityService = sharedIndetityService;
         }
 
-        public async Task<OrderCreatedViewModel> CreateOrder(ChechoutInfoInput chechoutInfoInput)
+        public async Task<OrderCreatedViewModel> CreateOrder(CheckoutInfoInput checkoutInfoInput)
         {
             var basket = await _basketService.Get();
 
             var paymentInfoInput = new PaymentInfoInput()
             {
-                CardName = chechoutInfoInput.CardName,
-                CardNumber = chechoutInfoInput.CardNumber,
-                Expiration = chechoutInfoInput.Expiration,
-                CVV = chechoutInfoInput.CVV,
+                CardName = checkoutInfoInput.CardName,
+                CardNumber = checkoutInfoInput.CardNumber,
+                Expiration = checkoutInfoInput.Expiration,
+                CVV = checkoutInfoInput.CVV,
                 TotalPrice = basket.TotalPrice
             };
 
@@ -43,7 +43,7 @@ namespace Free.Course.Web.Services
             var orderCreatInput = new OrderCreatInput()
             {
                 BuyerId = _sharedIndetityService.GetUserId,
-                Address = new AddressCreatInput() { Province = chechoutInfoInput.Province, District = chechoutInfoInput.District, Street = chechoutInfoInput.Street, Line = chechoutInfoInput.Line, ZipCode = chechoutInfoInput.ZipCode },
+                Address = new AddressCreatInput() { Province = checkoutInfoInput.Province, District = checkoutInfoInput.District, Street = checkoutInfoInput.Street, Line = checkoutInfoInput.Line, ZipCode = checkoutInfoInput.ZipCode },
 
             };
 
@@ -71,7 +71,7 @@ namespace Free.Course.Web.Services
             return response.Data;
         }
 
-        public Task SuspendOrder(ChechoutInfoInput chechoutInfoInput)
+        public Task SuspendOrder(CheckoutInfoInput chechoutInfoInput)
         {
             throw new NotImplementedException();
         }
