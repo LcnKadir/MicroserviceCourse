@@ -21,7 +21,7 @@
                         {
                             <tr>
                                 <td>@item.CourseName</td>
-                                <td>@item.GetCurrentPrice TL @(Model.HasDiscount ? $"(%{Model.DiscountRate.Value}uygulandı)":"")</td>
+                                <td>@item.GetCurrentPrice TL @(Model.HasDiscount ? $"(%{Model.DiscountRate.Value}uygulandı)":" ")</td>
                                 <td>
                                     <a class="btn btn-danger" asp-controller="Basket" asp-action="RemoveBasketItem" asp-route-courseId="@item.CourseId">Sil</a>
                                 </td>
