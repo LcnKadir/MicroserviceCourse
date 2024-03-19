@@ -41,6 +41,11 @@ namespace Free.Course.Web.Extensions
                 opt.BaseAddress = new Uri($"{serviceApiSetting.GatewayBaseUri}/{serviceApiSetting.Discount.Path}");
             }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
 
+            Services.AddHttpClient<IPaymentService, PaymentService>(opt =>
+            {
+                opt.BaseAddress = new Uri($"{serviceApiSetting.GatewayBaseUri}/{serviceApiSetting.Payment.Path}");
+            }).AddHttpMessageHandler<ResourceOwnerPasswordTokenHandler>();
+
 
         }
     }
