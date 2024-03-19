@@ -5,9 +5,18 @@ namespace Free.Course.Web.Services
 {
     public class PaymentService : IPaymentService
     {
-        public Task<bool> ReceivePayment(PaymentInfoInput paymentInfoInput)
+        private readonly HttpClient _httpClient;
+
+        public PaymentService(HttpClient httpClient)
         {
-            throw new NotImplementedException();
+            _httpClient = httpClient;
+        }
+
+        public async Task<bool> ReceivePayment(PaymentInfoInput paymentInfoInput)
+        {
+            var response = await _httpClient.PostAsJsonAsync("fakepayments", paymentInfoInput);
+
+            return response.IsSuccessStatusCode;
         }
     }
 }
