@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\photos\\d8cf36bb-5f21-4ede-8481-765a29dd8f5f.jpg"
     },
     {
+      "Id": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\PhotoStock\\FreeCourse.Services.PhotoStock\\wwwroot\\photos\\d8e7dc45-b083-4775-86b5-69dbd8f07755.jpg",
+      "PackagePath": "staticwebassets\\photos\\d8e7dc45-b083-4775-86b5-69dbd8f07755.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FreeCourse.Services.PhotoStock.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
