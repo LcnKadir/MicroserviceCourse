@@ -36,7 +36,7 @@ namespace Free.Course.Web.Controllers
                 return View();
             }
 
-            return RedirectToAction(nameof(SuccessFulCheckout), new { orederId= orderStatus.OrderId});
+            return RedirectToAction(nameof(SuccessFulCheckout), new { orderId= orderStatus.OrderId});
         }
 
         public IActionResult SuccessFulCheckout(int orderId)

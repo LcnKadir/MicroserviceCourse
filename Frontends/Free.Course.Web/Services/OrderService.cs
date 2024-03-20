@@ -49,7 +49,7 @@ namespace Free.Course.Web.Services
 
             basket.BasketItems.ForEach(x =>
             {
-                var orederItem = new OrderItemCreatInput { ProductId = x.CourseId, Price = x.Price, PictureUrl = "", ProductName = x.CourseName };
+                var orederItem = new OrderItemCreatInput { ProductId = x.CourseId, Price = x.GetCurrentPrice, PictureUrl = "", ProductName = x.CourseName };
                 orderCreatInput.OrderItems.Add(orederItem);
             });
 
@@ -60,8 +60,11 @@ namespace Free.Course.Web.Services
                 return new OrderCreatedViewModel() { Error = "Sipariş oluşturulamadı", IsSuccessful = false };
             }
 
-            return await response.Content.ReadFromJsonAsync<OrderCreatedViewModel>();
+            var orderCreatedViewModel = await response.Content.ReadFromJsonAsync<Response<OrderCreatedViewModel>>();
 
+            orderCreatedViewModel.Data.IsSuccessful = true;
+            await _basketService.Delete();
+            return orderCreatedViewModel.Data;
         }
 
         public async Task<List<OrderViewModel>> GetOrder()
