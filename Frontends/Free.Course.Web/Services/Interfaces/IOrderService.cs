@@ -8,7 +8,7 @@ namespace Free.Course.Web.Services.Interfaces
         Task<OrderCreatedViewModel> CreateOrder(CheckoutInfoInput checkoutInfoInput);
 
         //Asynchronous Communication-order information will be sent to rabbitMQ. //Asenkron İletişim-sipariş bilgileri rabbitMQ'ya gönderilecek.
-        Task SuspendOrder(CheckoutInfoInput checkoutInfoInput);
+        Task<OrderSuspendViewModel> SuspendOrder(CheckoutInfoInput checkoutInfoInput);
 
         Task<List<OrderViewModel>> GetOrder();
     }
