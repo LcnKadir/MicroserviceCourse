@@ -89,3 +89,13 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\obj\Debug\net7.0\Free.Course.Services.Order.API.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\obj\Debug\net7.0\Free.Course.Services.Order.API.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\obj\Debug\net7.0\ref\Free.Course.Services.Order.API.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\MassTransit.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Order\Free.Course.Services.Order.API\bin\Debug\net7.0\RabbitMQ.Client.dll
