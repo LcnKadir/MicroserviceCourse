@@ -30,6 +30,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMassTransit(x =>
 {
     x.AddConsumer<CreateOrderMessageCommandCunsomer>();
+    x.AddConsumer<CourseNameChangedEventCunsomer>();
 
     x.UsingRabbitMq((context, cfg) =>
     {
@@ -44,6 +45,10 @@ builder.Services.AddMassTransit(x =>
         cfg.ReceiveEndpoint("create-order-service", e =>
         {
             e.ConfigureConsumer<CreateOrderMessageCommandCunsomer>(context);
+        });
+        cfg.ReceiveEndpoint("course-name-changed-event-order-service", e =>
+        {
+            e.ConfigureConsumer<CourseNameChangedEventCunsomer>(context);
         });
     });
 });
