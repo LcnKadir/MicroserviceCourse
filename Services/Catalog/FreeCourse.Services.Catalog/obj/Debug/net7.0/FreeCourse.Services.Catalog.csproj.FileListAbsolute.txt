@@ -113,3 +113,13 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\Fr
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\FreeCourse.Services.Catalog.genruntimeconfig.cache
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\obj\Debug\net7.0\ref\FreeCourse.Services.Catalog.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\MassTransit.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Services\Catalog\FreeCourse.Services.Catalog\bin\Debug\net7.0\RabbitMQ.Client.dll
