@@ -15,6 +15,19 @@
           }
         }
       },
+      "IdentityModel/7.0.0-preview.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/IdentityModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/IdentityModel.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "IPAddressRange/6.0.0": {
         "type": "package",
         "compile": {
@@ -434,6 +447,31 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "IdentityModel/7.0.0-preview.4": {
+      "sha512": "CJ/DfrI2Xk/M5IoKI7dxrhtLZ8Kz/NWDS4Fh464q/AociOs7s15pDIBtigg5C5G7Vpgxuee4ssRuhhCzsKeCQg==",
+      "type": "package",
+      "path": "identitymodel/7.0.0-preview.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.jpg",
+        "identitymodel.7.0.0-preview.4.nupkg.sha512",
+        "identitymodel.nuspec",
+        "lib/net462/IdentityModel.dll",
+        "lib/net462/IdentityModel.pdb",
+        "lib/net462/IdentityModel.xml",
+        "lib/net472/IdentityModel.dll",
+        "lib/net472/IdentityModel.pdb",
+        "lib/net472/IdentityModel.xml",
+        "lib/net6.0/IdentityModel.dll",
+        "lib/net6.0/IdentityModel.pdb",
+        "lib/net6.0/IdentityModel.xml",
+        "lib/netstandard2.0/IdentityModel.dll",
+        "lib/netstandard2.0/IdentityModel.pdb",
+        "lib/netstandard2.0/IdentityModel.xml"
       ]
     },
     "IPAddressRange/6.0.0": {
@@ -1197,6 +1235,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "IdentityModel >= 7.0.0-preview.4",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.16",
       "Ocelot >= 23.1.0"
     ]
@@ -1240,6 +1279,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "IdentityModel": {
+            "target": "Package",
+            "version": "[7.0.0-preview.4, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[7.0.16, )"

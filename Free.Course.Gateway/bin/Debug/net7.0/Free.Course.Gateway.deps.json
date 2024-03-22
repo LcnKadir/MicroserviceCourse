@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Free.Course.Gateway/1.0.0": {
         "dependencies": {
+          "IdentityModel": "7.0.0-preview.4",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.16",
           "Ocelot": "23.1.0"
         },
@@ -20,6 +21,14 @@
           "lib/net7.0/FluentValidation.dll": {
             "assemblyVersion": "11.0.0.0",
             "fileVersion": "11.8.0.0"
+          }
+        }
+      },
+      "IdentityModel/7.0.0-preview.4": {
+        "runtime": {
+          "lib/net6.0/IdentityModel.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
           }
         }
       },
@@ -240,6 +249,13 @@
       "sha512": "sha512-TiEaaYqSIAS+wXQv46LRm8Mca092XYNePD0n231Hqlkmm5FuToZoWnjI1ef/vJUxBzqR7/k2vaVQXxijNgVKRQ==",
       "path": "fluentvalidation/11.8.0",
       "hashPath": "fluentvalidation.11.8.0.nupkg.sha512"
+    },
+    "IdentityModel/7.0.0-preview.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CJ/DfrI2Xk/M5IoKI7dxrhtLZ8Kz/NWDS4Fh464q/AociOs7s15pDIBtigg5C5G7Vpgxuee4ssRuhhCzsKeCQg==",
+      "path": "identitymodel/7.0.0-preview.4",
+      "hashPath": "identitymodel.7.0.0-preview.4.nupkg.sha512"
     },
     "IPAddressRange/6.0.0": {
       "type": "package",
