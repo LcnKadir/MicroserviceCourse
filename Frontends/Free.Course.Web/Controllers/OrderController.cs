@@ -37,9 +37,7 @@ namespace Free.Course.Web.Controllers
             //    ViewBag.Error = orderStatus.Error;
             //    return View();
             //}
-
-            //1st way synchronous communication // 1. yol senkron iletişim
-            //return RedirectToAction(nameof(SuccessFulCheckout), new { orderId= orderStatus.OrderId});
+            //return RedirectToAction(nameof(SuccessFulCheckout), new { orderId = orderStatus.OrderId });
 
 
             //2nd way asynchronous communication //2. yol asenkron iletişim
@@ -53,7 +51,7 @@ namespace Free.Course.Web.Controllers
                 return View();
             }
 
-            return RedirectToAction(nameof(SuccessFulCheckout), new { orderId = new Random().Next(1,1000)});
+            return RedirectToAction(nameof(SuccessFulCheckout), new { orderId = new Random().Next(1, 1000) });
 
 
         }

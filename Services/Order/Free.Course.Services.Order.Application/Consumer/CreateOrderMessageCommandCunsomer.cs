@@ -31,7 +31,7 @@ namespace Free.Course.Services.Order.Application.Consumer
             });
 
             await _orderDbContext.Orders.AddAsync(order);
-        
+
             await _orderDbContext.SaveChangesAsync();
         }
     }

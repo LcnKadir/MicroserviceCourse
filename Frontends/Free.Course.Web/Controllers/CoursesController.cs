@@ -67,6 +67,7 @@ namespace Free.Course.Web.Controllers
             {
                 Id = course.Id,
                 Name = course.Name,
+                Price = course.Price,
                 Description = course.Description,
                 Feature = course.Feature,
                 CategoryId = course.CategoryId,
