@@ -4,14 +4,15 @@ services:
     image: mongo
   basketdb:
     image: redis
-  discount:
-    image: posgres
+  discountdb:
+    image: postgres
   identitydb:
-    image: mcr.microsoft.com/mssq/server
+    image: mcr.microsoft.com/mssql/server:2019-latest
   orderdb: 
-    image: mcr.microsoft.com/mssq/server
-  rabbitmg:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+  rabbitmq:
     image: rabbitmq:3.13.0-management
+
 volumes:
   catalogdb_volume:
   discount_volume:
