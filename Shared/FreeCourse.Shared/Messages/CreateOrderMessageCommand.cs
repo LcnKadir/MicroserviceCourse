@@ -6,7 +6,7 @@ namespace FreeCourse.Shared.Messages
 {
     public class CreateOrderMessageCommand
     {
-        public CreateOrderMessageCommand()
+        public CreateOrderMessageCommand() 
         {
             OrderItems = new List<OrderItem>();
         }

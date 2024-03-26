@@ -1,9 +1,9 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0-bookworm-slim as build
 WORKDIR /app
 EXPOSE 80
-COPY Shared/Free.Course.Shared/*.csproj Shared/Free.Course.Shared/
+COPY Shared/FreeCourse.Shared/*.csproj Shared/FreeCourse.Shared/
 COPY Services/Catalog/FreeCourse.Services.Catalog/*.csproj Services/Catalog/FreeCourse.Services.Catalog/
-RUN dotnet restore Services/Catalog/FreeCourse.Services.Catalog/*.csproj 
+RUN dotnet restore Services/Catalog/FreeCourse.Services.Catalog/*.csproj
 COPY . .
 RUN dotnet publish Services/Catalog/FreeCourse.Services.Catalog/*.csproj -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:7.0-bookworm-slim as runtime

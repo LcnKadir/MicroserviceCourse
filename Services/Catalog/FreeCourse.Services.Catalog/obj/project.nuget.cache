@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DK72Tx5B1fujHnY5YUfdSmuZkWvGi/nmFxrvgzSaKZPaWkr4KdAa+AulT6xXZ8p0F/Zy6VNL8xHz4fpoa1DHSQ==",
+  "dgSpecHash": "MD/6vO34DZ8HXfBbEIoVXu1G31Fpv3Q+JNvgsQMi6mUa12/8Vb9ryPHAlK0UXcY/M4pMQxwptJIgAjidRDgJJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Catalog\\FreeCourse.Services.Catalog\\FreeCourse.Services.Catalog.csproj",
   "expectedPackageFiles": [
@@ -41,11 +41,9 @@
     "C:\\Users\\kadir\\.nuget\\packages\\mongodb.driver\\2.23.1\\mongodb.driver.2.23.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\mongodb.driver.core\\2.23.1\\mongodb.driver.core.2.23.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
-    "C:\\Users\\kadir\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
-    "C:\\Users\\kadir\\.nuget\\packages\\stackexchange.redis\\2.7.27\\stackexchange.redis.2.7.27.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
@@ -53,7 +51,6 @@
     "C:\\Users\\kadir\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.1\\system.diagnostics.diagnosticsource.7.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
-    "C:\\Users\\kadir\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\kadir\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",

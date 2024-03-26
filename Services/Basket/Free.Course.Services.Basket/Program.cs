@@ -23,14 +23,6 @@ builder.Services.AddControllers(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
-builder.Services.AddScoped<IBasketServies, BasketService>();
-//OPTÝONSPATTERN FOR REDÝS CONTACT
-builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings"));
-
-
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
 
 //JSONWEBTOKEN
@@ -43,7 +35,12 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ISharedIndetityService, SharedIdentityService>();
+builder.Services.AddScoped<IBasketServies, BasketService>();
 
+//OPTÝONSPATTERN FOR REDÝS CONTACT
+builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("RedisSettings"));
 
 //Host and port connections of Redis when the project is up and running. //Proje ayaða kalktýðý zaman ki Redis'in host ve port baðlantýlarý.
 builder.Services.AddSingleton<RedisService>(sp =>

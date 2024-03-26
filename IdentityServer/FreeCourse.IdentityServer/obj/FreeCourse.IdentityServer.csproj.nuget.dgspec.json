@@ -46,7 +46,7 @@
           "dependencies": {
             "IdentityServer4.AspNetIdentity": {
               "target": "Package",
-              "version": "[4.0.0, )"
+              "version": "[4.1.2, )"
             },
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
@@ -80,7 +80,7 @@
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[3.2.0, )"
+              "version": "[8.0.2-dev-00336, )"
             }
           },
           "imports": [

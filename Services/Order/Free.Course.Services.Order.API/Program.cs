@@ -27,32 +27,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddMassTransit(x =>
-{
-    x.AddConsumer<CreateOrderMessageCommandCunsomer>();
-    x.AddConsumer<CourseNameChangedEventCunsomer>();
-
-    x.UsingRabbitMq((context, cfg) =>
-    {
-    
-        //RabbitMQ Default Port : 5672
-        cfg.Host(builder.Configuration["RabbitMQUrl"], "/", host =>
-        {
-            host.Username("guest");
-            host.Password("guest");
-        });
-
-        cfg.ReceiveEndpoint("create-order-service", e =>
-        {
-            e.ConfigureConsumer<CreateOrderMessageCommandCunsomer>(context);
-        });
-        cfg.ReceiveEndpoint("course-name-changed-event-order-service", e =>
-        {
-            e.ConfigureConsumer<CourseNameChangedEventCunsomer>(context);
-        });
-    });
-});
-
 
 builder.Services.AddDbContext<OrderDbContext>(opt =>
 {
@@ -81,6 +55,31 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 });
 
 
+builder.Services.AddMassTransit(x =>
+{
+    x.AddConsumer<CreateOrderMessageCommandCunsomer>();
+    x.AddConsumer<CourseNameChangedEventCunsomer>();
+
+    x.UsingRabbitMq((context, cfg) =>
+    {
+
+        //RabbitMQ Default Port : 5672
+        cfg.Host(builder.Configuration["RabbitMQUrl"], "/", host =>
+        {
+            host.Username("guest");
+            host.Password("guest");
+        });
+
+        cfg.ReceiveEndpoint("create-order-service", e =>
+        {
+            e.ConfigureConsumer<CreateOrderMessageCommandCunsomer>(context);
+        });
+        cfg.ReceiveEndpoint("course-name-changed-event-order-service", e =>
+        {
+            e.ConfigureConsumer<CourseNameChangedEventCunsomer>(context);
+        });
+    });
+});
 
 
 var app = builder.Build();

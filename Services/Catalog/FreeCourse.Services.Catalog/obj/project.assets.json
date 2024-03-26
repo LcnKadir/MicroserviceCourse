@@ -630,22 +630,6 @@
           }
         }
       },
-      "Pipelines.Sockets.Unofficial/2.2.8": {
-        "type": "package",
-        "dependencies": {
-          "System.IO.Pipelines": "5.0.1"
-        },
-        "compile": {
-          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "RabbitMQ.Client/6.8.1": {
         "type": "package",
         "dependencies": {
@@ -681,23 +665,6 @@
         },
         "runtime": {
           "lib/net5.0/Snappier.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "StackExchange.Redis/2.7.27": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
-          "Pipelines.Sockets.Unofficial": "2.2.8"
-        },
-        "compile": {
-          "lib/net6.0/StackExchange.Redis.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/StackExchange.Redis.dll": {
             "related": ".xml"
           }
         }
@@ -803,19 +770,6 @@
         },
         "runtime": {
           "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.IO.Pipelines/5.0.1": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/System.IO.Pipelines.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         }
@@ -995,26 +949,6 @@
         "runtime": {
           "lib/net7.0/ZstdSharp.dll": {}
         }
-      },
-      "Free.Course.Services.Basket/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "FreeCourse.Shared": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.16",
-          "Microsoft.AspNetCore.OpenApi": "7.0.16",
-          "StackExchange.Redis": "2.7.27",
-          "Swashbuckle.AspNetCore": "6.5.0"
-        },
-        "compile": {
-          "bin/placeholder/Free.Course.Services.Basket.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Free.Course.Services.Basket.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       },
       "FreeCourse.Shared/1.0.0": {
         "type": "project",
@@ -2158,29 +2092,6 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-    "Pipelines.Sockets.Unofficial/2.2.8": {
-      "sha512": "zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
-      "type": "package",
-      "path": "pipelines.sockets.unofficial/2.2.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/Pipelines.Sockets.Unofficial.dll",
-        "lib/net461/Pipelines.Sockets.Unofficial.xml",
-        "lib/net472/Pipelines.Sockets.Unofficial.dll",
-        "lib/net472/Pipelines.Sockets.Unofficial.xml",
-        "lib/net5.0/Pipelines.Sockets.Unofficial.dll",
-        "lib/net5.0/Pipelines.Sockets.Unofficial.xml",
-        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.dll",
-        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.xml",
-        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.dll",
-        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.xml",
-        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll",
-        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.xml",
-        "pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
-        "pipelines.sockets.unofficial.nuspec"
-      ]
-    },
     "RabbitMQ.Client/6.8.1": {
       "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
       "type": "package",
@@ -2232,27 +2143,6 @@
         "lib/netstandard2.1/Snappier.xml",
         "snappier.1.0.0.nupkg.sha512",
         "snappier.nuspec"
-      ]
-    },
-    "StackExchange.Redis/2.7.27": {
-      "sha512": "Uqc2OQHglqj9/FfGQ6RkKFkZfHySfZlfmbCl+hc+u2I/IqunfelQ7QJi7ZhvAJxUtu80pildVX6NPLdDaUffOw==",
-      "type": "package",
-      "path": "stackexchange.redis/2.7.27",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/StackExchange.Redis.dll",
-        "lib/net461/StackExchange.Redis.xml",
-        "lib/net472/StackExchange.Redis.dll",
-        "lib/net472/StackExchange.Redis.xml",
-        "lib/net6.0/StackExchange.Redis.dll",
-        "lib/net6.0/StackExchange.Redis.xml",
-        "lib/netcoreapp3.1/StackExchange.Redis.dll",
-        "lib/netcoreapp3.1/StackExchange.Redis.xml",
-        "lib/netstandard2.0/StackExchange.Redis.dll",
-        "lib/netstandard2.0/StackExchange.Redis.xml",
-        "stackexchange.redis.2.7.27.nupkg.sha512",
-        "stackexchange.redis.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.5.0": {
@@ -2424,32 +2314,6 @@
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
         "system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
-      ]
-    },
-    "System.IO.Pipelines/5.0.1": {
-      "sha512": "qEePWsaq9LoEEIqhbGe6D5J8c9IqQOUuTzzV6wn1POlfdLkJliZY3OlB0j0f17uMWlqZYjH7txj+2YbyrIA8Yg==",
-      "type": "package",
-      "path": "system.io.pipelines/5.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.IO.Pipelines.dll",
-        "lib/net461/System.IO.Pipelines.xml",
-        "lib/netcoreapp3.0/System.IO.Pipelines.dll",
-        "lib/netcoreapp3.0/System.IO.Pipelines.xml",
-        "lib/netstandard1.3/System.IO.Pipelines.dll",
-        "lib/netstandard1.3/System.IO.Pipelines.xml",
-        "lib/netstandard2.0/System.IO.Pipelines.dll",
-        "lib/netstandard2.0/System.IO.Pipelines.xml",
-        "ref/netcoreapp2.0/System.IO.Pipelines.dll",
-        "ref/netcoreapp2.0/System.IO.Pipelines.xml",
-        "system.io.pipelines.5.0.1.nupkg.sha512",
-        "system.io.pipelines.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "System.Memory/4.5.5": {
@@ -2981,11 +2845,6 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "Free.Course.Services.Basket/1.0.0": {
-      "type": "project",
-      "path": "../../Basket/Free.Course.Services.Basket/Free.Course.Services.Basket.csproj",
-      "msbuildProject": "../../Basket/Free.Course.Services.Basket/Free.Course.Services.Basket.csproj"
-    },
     "FreeCourse.Shared/1.0.0": {
       "type": "project",
       "path": "../../../Shared/FreeCourse.Shared/FreeCourse.Shared.csproj",
@@ -2995,7 +2854,6 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
-      "Free.Course.Services.Basket >= 1.0.0",
       "FreeCourse.Shared >= 1.0.0",
       "MassTransit.AspNetCore >= 7.3.1",
       "MassTransit.RabbitMQ >= 8.2.0-develop.1705",
@@ -3032,9 +2890,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Basket\\Free.Course.Services.Basket\\Free.Course.Services.Basket.csproj": {
-              "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Services\\Basket\\Free.Course.Services.Basket\\Free.Course.Services.Basket.csproj"
-            },
             "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj": {
               "projectPath": "C:\\Users\\kadir\\OneDrive\\Masaüstü\\MİCROYEDEK\\Microservices\\Shared\\FreeCourse.Shared\\FreeCourse.Shared.csproj"
             }

@@ -34,7 +34,6 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
@@ -142,3 +141,8 @@ C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\Free
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.dll
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.pdb
 C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\obj\Debug\netcoreapp3.1\FreeCourse.IdentityServer.genruntimeconfig.cache
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\IdentityServer\FreeCourse.IdentityServer\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll

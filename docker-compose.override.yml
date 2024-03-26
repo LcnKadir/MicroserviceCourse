@@ -54,7 +54,7 @@ services:
     environment:
       - ASPNETCORE_ENVIROMENT=Development
       - RabbitMQUrl:rabbitmq
-      - IdentityServerURL:http://identityserver.api:5001
+      - IdentityServerURL:http://identityserver.api
       - DatabaseSettings:ConnectionString=mongodb://catalogdb:27017
     ports:
       - "5011:80"
@@ -62,11 +62,22 @@ services:
       - catalogdb
   identityserver.api:
     container_name: identityserver.api
+    restart: on-failure
     environment:
-      - ASPNETCORE_ENVIROMENT=Development
-      - "ConnectionStrings:DefaultConnection=Server=identitydb,1433;Database=IdentityDb;User=sa;Password=Password12*"
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:DefaultConnection=Server=identitydb,1433;Database=IdentityDb; User=sa; Password=Password12*"
     ports:
       - "5001:80"
     depends_on:
       - identitydb
-  
+  basket.api:
+    container_name: basket.api
+    environment:
+      - ASPNETCORE_ENVIROMENT=Development
+      - IdentityServerURL:http://identityserver.api
+      - RedisSettings:Port=6379
+      - RedisSettings=Host=basketdb
+    ports:
+      - "5013:80"
+    depends_on:
+      - basketdb

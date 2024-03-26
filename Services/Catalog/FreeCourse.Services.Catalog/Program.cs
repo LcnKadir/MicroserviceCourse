@@ -1,4 +1,3 @@
-using Free.Course.Services.Basket.Settings;
 using FreeCourse.Services.Catalog.DTOs;
 using FreeCourse.Services.Catalog.Services;
 using FreeCourse.Services.Catalog.Settings;
@@ -37,7 +36,14 @@ builder.Services.AddMassTransit(x =>
     });
 });
 
-
+//JSONWEBTOKEN
+//Microservice is protected. // Microservice'i koruma altýna aldýk.
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.Authority = builder.Configuration["IdentityServerURL"];
+    options.Audience = "resource_catalog";
+    options.RequireHttpsMetadata = false;
+});
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
@@ -50,15 +56,6 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp =>
     return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value; // "GetRequiredService" will throw an error if it cannot find the corresponding service. // "GetRequiredService" eðer ilgili servisi bulamazsa hata fýrlatacak.
 });
 
-
-//JSONWEBTOKEN
-//Microservice is protected. // Microservice'i koruma altýna aldýk.
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
-{
-    options.Authority = builder.Configuration["IdentityServerURL"];
-    options.Audience = "resource_catalog";
-    options.RequireHttpsMetadata = false;
-});
 
 var app = builder.Build();
 

@@ -3,7 +3,7 @@
   <PropertyGroup>
 	  <TargetFramework>netcoreapp3.1</TargetFramework>
 	  <ImplicitUsings>enable</ImplicitUsings>
-	  <Nullable>enable</Nullable>
+	  <Nullable>disable</Nullable>
 	  <LangVersion>latest</LangVersion>
   </PropertyGroup>
 	<ItemGroup>
