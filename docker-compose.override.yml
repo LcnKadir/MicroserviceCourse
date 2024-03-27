@@ -117,18 +117,36 @@ services:
       - ASPNETCORE_ENVIRONMENT=Development
       - IdentityServerURL=http://identityserver.api
       - RabbitMQUrl=rabbitmq
-      - "ConnectionStrings:DefaultConnection=erver=orderdb,1444;Database=OrderDb;User=sa;Password=Password12*;TrustServerCertificate=True"
+      - "ConnectionStrings:DefaultConnection=Server=orderdb,1433;Database=OrderDb;User=sa;Password=Password12*;TrustServerCertificate=True"
     ports:
       - "5015:80"
     depends_on:
       - orderdb
   gateway.api:
-    container_name:  gateway.api
+    container_name: gateway.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
       - IdentityServerURL=http://identityserver.api   
     ports:
       - "5000:80"
+  aspnetcoremvc.web:
+    container_name: aspnetcoremvc.web
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ServiceApiSettings:IdentityBaseUri=http://identityserver.api
+      - ServiceApiSettings:GatewayBaseUri=http://gateway.api   
+    ports:
+      - "5010:80"
+    depends_on:
+      -  gateway.api
+      -  catalog.api
+      -  identityserver.api
+      -  photostock.api
+      -  discount.api
+      -  fakepayment.api
+      -  order.api
+      -  basket.api
+
 
 
 

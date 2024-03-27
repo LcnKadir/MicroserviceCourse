@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Free.Course.Web
 build_property.RootNamespace = Free.Course.Web
-build_property.ProjectDir = c:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\
+build_property.ProjectDir = C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web
+build_property.MSBuildProjectDirectory = C:\Users\kadir\OneDrive\Masaüstü\MİCROYEDEK\Microservices\Frontends\Free.Course.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Auth/SignIn.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Auth/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Basket/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Basket/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFza2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Courses/Create.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Courses/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Courses/Update.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Courses/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Home/Detail.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Home/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Home/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Order/Checkout.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Order/CheckoutHistory.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Order/CheckoutHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXRIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Order/SuccessFulCheckout.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Order/SuccessFulCheckout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcU3VjY2Vzc0Z1bENoZWNrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Shared/Error.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/User/Index.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/_ViewImports.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/_ViewStart.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/kadir/OneDrive/Masaüstü/MİCROYEDEK/Microservices/Frontends/Free.Course.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yw7ekmznvl
