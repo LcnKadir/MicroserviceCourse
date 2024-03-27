@@ -42,6 +42,11 @@ services:
     build: 
       context: .
       dockerfile: Services/FakePayment/Free.Course.Services.FakePayment/DockerFile
+  order.api:
+    image: order_api_image
+    build: 
+      context: .
+      dockerfile: Services/Order/Free.Course.Services.Order.API/DockerFile
 volumes:
   catalogdb_volume:
   discount_volume:

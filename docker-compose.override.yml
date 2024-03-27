@@ -53,8 +53,8 @@ services:
     container_name: catalog.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - RabbitMQUrl:rabbitmq
-      - IdentityServerURL:http://identityserver.api
+      - RabbitMQUrl=rabbitmq
+      - IdentityServerURL=http://identityserver.api
       - DatabaseSettings:ConnectionString=mongodb://catalogdb:27017
     ports:
       - "5011:80"
@@ -74,7 +74,7 @@ services:
     container_name: basket.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - IdentityServerURL:http://identityserver.api
+      - IdentityServerURL=http://identityserver.api
       - RedisSettings:Port=6379
       - RedisSettings:Host=basketdb
     ports:
@@ -85,7 +85,7 @@ services:
     container_name: photostock.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - IdentityServerURL:http://identityserver.api
+      - IdentityServerURL=http://identityserver.api
     ports:
       - "5012:80"
     volumes:
@@ -96,7 +96,7 @@ services:
     container_name: discount.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - IdentityServerURL:http://identityserver.api
+      - IdentityServerURL=http://identityserver.api
       - "ConnectionStrings:PostgreSql=User ID=admin;Password=Password12*;Server=localhost;Port=5432;Database=discountdb;Pooling=true"
     ports:
       - "5014:80"
@@ -106,9 +106,20 @@ services:
     container_name: fakepayment.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - IdentityServerURL:http://identityserver.api
-      - RabbitMQUrl:rabbitmq
-
+      - IdentityServerURL=http://identityserver.api
+      - RabbitMQUrl=rabbitmq
     ports:
       - "5016:80"
+  order.api:
+    container_name: order.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - IdentityServerURL=http://identityserver.api
+      - RabbitMQUrl=rabbitmq
+      - "ConnectionStrings:DefaultConnection=erver=orderdb,1444;Database=OrderDb;User=sa;Password=Password12*;TrustServerCertificate=True"
+    ports:
+      - "5015:80"
+    depends_on:
+      - orderdb
+
 
