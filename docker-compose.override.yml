@@ -76,8 +76,19 @@ services:
       - ASPNETCORE_ENVIROMENT=Development
       - IdentityServerURL:http://identityserver.api
       - RedisSettings:Port=6379
-      - RedisSettings=Host=basketdb
+      - RedisSettings:Host=basketdb
     ports:
       - "5013:80"
     depends_on:
       - basketdb
+  photostock.api:
+    container_name: photostock.api
+    environment:
+      - ASPNETCORE_ENVIROMENT=Development
+      - IdentityServerURL:http://identityserver.api
+    ports:
+      - "5012:80"
+    volumes:
+      - type: bind
+        source: C:\Users\kadir\OneDrive\Masaüstü\photos
+        target: /app/wwwroot/photos
